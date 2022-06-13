@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3c6a8"
+    tools:context=".Coffee_Menu">
+
+    <TextView
+        android:id="@+id/menu_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ΚΑΦΕΔΕΣ"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/arabica"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showFreddoEspresso"
+        android:text="Freddo Espresso"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_text"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/peru"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showAmericano"
+        android:text="AMERICANO"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/straw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/intenso"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showLatte"
+        android:text="LATTE"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/straw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toEndOf="@+id/peru"
+        app:layout_constraintTop_toBottomOf="@+id/doubledose"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <Button
+        android:id="@+id/straw"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showNescaffe"
+        android:text="NESCAFFE"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_text"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <Button
+        android:id="@+id/intenso"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showMochaccino"
+        android:text="MOCHACCINO"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/single"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/doubledose"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showEspresso"
+        android:text="ESPRESSO"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/straw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toEndOf="@+id/intenso"
+        app:layout_constraintTop_toBottomOf="@+id/arabica"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <Button
+        android:id="@+id/single"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showFreddoCappuccino"
+        android:text="Freddo Cappuccino"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/arabica"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_text"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <Button
+        android:id="@+id/cappuccino"
+        android:layout_width="154dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:onClick="showCappuccino"
+        android:text="CAPPUCINO"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_text"
+        app:layout_constraintVertical_bias="0.539" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/Projects/app/src/main/res/drawable/button_color.xml" value="0.3145" />
+        <entry key="..\:/AndroidStudio/Projects/app/src/main/res/layout/activity_choco_menu.xml" value="0.2752604166666667" />
+        <entry key="..\:/AndroidStudio/Projects/app/src/main/res/layout/activity_coffee_menu.xml" value="0.22" />
+        <entry key="..\:/AndroidStudio/Projects/app/src/main/res/layout/activity_freddo_espresso.xml" value="0.2752604166666667" />
+        <entry key="..\:/AndroidStudio/Projects/app/src/main/res/layout/activity_main.xml" value="0.2752604166666667" />
+        <entry key="app/src/main/res/drawable/btn_state.xml" value="0.6525" />
+        <entry key="app/src/main/res/drawable/button_color.xml" value="0.469" />
+        <entry key="app/src/main/res/drawable/buttton_background.xml" value="0.6525" />
+        <entry key="app/src/main/res/layout/activity_almond_vanilla.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_americano.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_apple_vanilla.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_cappuccino.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_caramel_cookie.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_caramel_peanut.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_choco_menu.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_chocolate.xml" value="0.4814143245693563" />
+        <entry key="app/src/main/res/layout/activity_cinnamon_candy.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_coffee_menu.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_espresso.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_freddo_cappuccino.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_freddo_espresso.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_latte.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_loading.xml" value="0.4814143245693563" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.6" />
+        <entry key="app/src/main/res/layout/activity_mochachino.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_nescaffe.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/activity_strawberry.xml" value="0.6631038905515177" />
+        <entry key="app/src/main/res/layout/content_espresso.xml" value="0.6631038905515177" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

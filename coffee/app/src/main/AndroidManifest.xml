@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/coffee"
+        android:label="Coffee Machine App"
+        android:roundIcon="@drawable/coffee"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".AlmondVanilla"
+            android:exported="false" />
+        <activity
+            android:name=".CaramelPeanut"
+            android:exported="false" />
+        <activity
+            android:name=".CinnamonCandy"
+            android:exported="false" />
+        <activity
+            android:name=".Caramel_Cookie"
+            android:exported="false" />
+        <activity
+            android:name=".Apple_Vanilla"
+            android:exported="false" />
+        <activity
+            android:name=".Cappuccino"
+            android:exported="false" />
+        <activity
+            android:name=".Nescaffe"
+            android:exported="false" />
+        <activity
+            android:name=".Latte"
+            android:exported="false" />
+        <activity
+            android:name=".Americano"
+            android:exported="false" />
+        <activity
+            android:name=".Strawberry"
+            android:exported="false" />
+        <activity
+            android:name=".Chocolate"
+            android:exported="false" />
+        <activity
+            android:name=".Loading"
+            android:exported="false" />
+        <activity
+            android:name=".Espresso"
+            android:exported="false" />
+        <activity
+            android:name=".Mochachino"
+            android:exported="false" />
+        <activity
+            android:name=".Freddo_Cappuccino"
+            android:exported="false"
+            android:label="@string/title_activity_freddo_cappuccino"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name=".Freddo_Espresso"
+            android:exported="false" />
+        <activity
+            android:name=".Choco_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Coffee_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
